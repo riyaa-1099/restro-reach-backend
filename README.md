@@ -30,7 +30,7 @@ Nodemon: A development tool for automatically restarting the server during devel
 
 React Router DOM: A library for handling routing in React applications.
 
-Getting Started
+<h3>Getting Started</h3>
 To get started with the backend application locally, follow these steps:
 
 1. Clone the repository:
@@ -50,7 +50,7 @@ To get started with the backend application locally, follow these steps:
  npm run dev
  The backend server should now be running and ready to handle requests from the frontend application.
 
-##Project Structure
+<h3>Project Structure</h3>
 
 The Restro-Reach Backend project follows a structured directory layout for better organization:
 
@@ -72,7 +72,7 @@ services/:Ideally controller should connect to respective service files where he
 
 index.js: The entry point of the application.
 
-##API Endpoints
+<h3>API Endpoints</h3>
 
 The backend application provides the following API endpoints:
 
