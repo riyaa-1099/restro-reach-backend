@@ -96,11 +96,17 @@ Acknowledgments
 We would like to acknowledge the following resources and frameworks that made Restro-Reach Backend possible:
 
 Node.js documentation: https://nodejs.org;
+
 Express documentation: https://expressjs.com;
+
 MongoDB documentation: https://docs.mongodb.com;
+
 Mongoose documentation: https://mongoosejs.com;
+
 JSON Web Token documentation: https://jwt.io;
+
 Axios documentation: https://axios-http.com;
+
 Bcrypt documentation: https://github.com/kelektiv/node.bcrypt.js;
 React Router DOM documentation: https://reactrouter.com;
 
