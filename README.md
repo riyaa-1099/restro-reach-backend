@@ -5,17 +5,29 @@ The Restro-Reach Backend repository contains the server-side code for the restau
 ##Technologies Used
 
 TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
+
 Node.js: A JavaScript runtime environment for running server-side applications.
+
 Express: A fast and minimalist web framework for Node.js.
+
 MongoDB: A popular NoSQL database for data storage.
+
 Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
+
 JSON Web Tokens (JWT): For secure authentication and authorization.
+
 Axios: A promise-based HTTP client for making API requests.
+
 Bcrypt: A library for hashing and encrypting passwords.
+
 Cookie Parser: A middleware for parsing cookies in the HTTP request.
+
 Cors: A middleware for enabling Cross-Origin Resource Sharing.
+
 Dotenv: A module for loading environment variables from a .env file.
+
 Nodemon: A development tool for automatically restarting the server during development.
+
 React Router DOM: A library for handling routing in React applications.
 
 Getting Started
@@ -23,14 +35,17 @@ To get started with the backend application locally, follow these steps:
 
 1. Clone the repository:
   git clone <repository-url>
+  
 2. Install the dependencies:
   npm install
+
 3. Configure the environment variables:
  Create a .env file in the root directory.
  Set the required environment variables in the .env file, such as:
  PORT: The port number for the server to listen on.
  MONGODB_URI: The MongoDB connection URL.
  SECRET_KEY: A secret key for JWT token generation.
+
 4.Start the application:
  npm run dev
  The backend server should now be running and ready to handle requests from the frontend application.
@@ -62,12 +77,19 @@ index.js: The entry point of the application.
 The backend application provides the following API endpoints:
 
 POST /api/user/signup: Creates a new user account.
+
 POST /api/user/signin: Logs in with user credentials and returns a JWT token.
+
 POST /api/user/logout: Logs out the currently logged-in user.
+
 GET /api/restaurant: Retrieves a paginated list of restaurants.
+
 GET /api/restaurant/:userId: Retrieves details of a specific restaurant.
+
 POST /api/restaurant: Creates a new restaurant for the currently logged-in user.
+
 PUT /api/restaurant/: Updates information of a specific restaurant.
+
 DELETE /api/restaurant/:restaurantId: Deletes a specific restaurant.
 
 Acknowledgments
