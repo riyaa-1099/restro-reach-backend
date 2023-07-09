@@ -2,7 +2,7 @@
 The backend of the application is responsible for handling the API requests from the front end, processing the form submissions, and interacting with the MongoDB database for data storage and retrieval. It is built using TypeScript, a statically-typed superset of JavaScript, which adds type-checking and additional features to the language.
 The Restro-Reach Backend repository contains the server-side code for the restaurant onboarding application. It handles the authentication, data storage, and API endpoints required for the front-end application.
 
-##Technologies Used
+<b>Technologies Used</b>
 
 TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 
